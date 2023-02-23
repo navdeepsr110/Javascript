@@ -21,7 +21,7 @@
 
 
 // Deleting property
-var student = {
+/*var student = {
     "name":"abc",
     rollNo: 135,
     marks: 90,
@@ -32,3 +32,24 @@ delete student.marks;
 console.log(student);
 delete student.rollNo;
 console.log(student);
+delete student.name;
+console.log(student);*/
+
+// How are objects are stored
+var obj = {
+    "p1":10
+};
+
+var obj2 = obj;
+console.log(obj2);
+console.log(obj);
+
+console.log(obj==obj2);
+console.log(obj===obj2);
+
+// Now if i am giving same value to obj2
+obj2={
+    "p1":100
+};
+// It would point to different locations
+console.log(obj==obj2);
