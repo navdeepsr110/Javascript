@@ -36,7 +36,7 @@ delete student.name;
 console.log(student);*/
 
 // How are objects are stored
-var obj = {
+/*var obj = {
     "p1":10
 };
 
@@ -52,4 +52,24 @@ obj2={
     "p1":100
 };
 // It would point to different locations
-console.log(obj==obj2);
+console.log(obj==obj2);*/
+
+
+// Iterating over Objects
+var student = {
+    "name":"abc",
+    rollNo:135,
+    marks: 90,
+    "2": "two"
+};
+
+//These both the functions give the keys
+var keys = Object.keys(student); 
+console.log(keys);
+
+// var keys = Object.getOwnPropertyNames(student);
+// console.log(keys);
+
+/*for(var prop in student){
+    console.log(prop, student[prop]);
+}*/
