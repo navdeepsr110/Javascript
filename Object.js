@@ -56,16 +56,16 @@ console.log(obj==obj2);*/
 
 
 // Iterating over Objects
-var student = {
+/*var student = {
     "name":"abc",
     rollNo:135,
     marks: 90,
     "2": "two"
-};
+};*/
 
 //These both the functions give the keys
-var keys = Object.keys(student); 
-console.log(keys);
+/*var keys = Object.keys(student); 
+console.log(keys);*/
 
 // var keys = Object.getOwnPropertyNames(student);
 // console.log(keys);
@@ -73,3 +73,23 @@ console.log(keys);
 /*for(var prop in student){
     console.log(prop, student[prop]);
 }*/
+
+// Nested Objects ?
+function setNest(obj, level, val){
+    if(level > 0){
+        setNest(obj.subobject, level-1, val);
+    }
+    else{
+        obj.subobject = val;
+    }
+}
+
+
+setNest(object, 2, {a: 12});
+
+
+
+
+
+
+
