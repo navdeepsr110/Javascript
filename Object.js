@@ -75,19 +75,21 @@ console.log(keys);*/
 }*/
 
 // Nested Objects ?
-function setNest(obj, level, val){
-    if(level > 0){
-        setNest(obj.subobject, level-1, val);
+var student = {
+    "name":"abc",
+    rollNo: 135,
+    marks: 90,
+    "2":"two",
+    address:{
+        city: "New Delhi",
+        pincode: 110032
     }
-    else{
-        obj.subobject = val;
-    }
-}
-
-
-setNest(object, 2, {a: 12});
-
-
+};
+    
+console.log(student);
+console.log(student.address);
+console.log(student.address.city);
+console.log(student.address["city"]);
 
 
 
