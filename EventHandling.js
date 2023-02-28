@@ -16,3 +16,23 @@ console.log(helloButton2);
 helloButton2.addEventListener('click', function(){
     alert('Hello');
 });*/
+
+
+//Event Handling ?
+dialogWindow.unload = myEventHandler;
+
+
+var oldHandler = dialogWindow.unload;
+dialogWindow.unload = function (e) 
+{
+   if (oldHandler) { oldHandler(e); }
+   myEventHandler(e);
+}
+
+
+
+
+//Source: https://stackoverflow.com/questions/1214745
+
+
+
