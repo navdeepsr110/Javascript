@@ -32,7 +32,7 @@ dialogWindow.unload = function (e)
 
 
 
-//Source: https://stackoverflow.com/questions/1214745
+
 
 
 
