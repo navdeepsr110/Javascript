@@ -4,3 +4,11 @@
     margin: auto;
     
 }
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid;
+    box-shadow: 0 0 50px 15px hwb(60 92% 5%);
+}
