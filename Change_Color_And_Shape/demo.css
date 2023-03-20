@@ -1,14 +1,39 @@
-#my-image{
+#block{
     height: 12rem;
     width: 12rem;
     margin: auto;
-    
+    background-color: blueviolet;
+    border-radius: 50%;
 }
 
-#my-image img{
-    height: 100%;
-    width: 100%;
+#block img{
+    height: 200%;
+    width: 200%;
     border-radius: 50%;
     border: 2px solid;
     box-shadow: 0 0 50px 15px hwb(60 92% 5%);
+    
+}
+
+#square{
+    /* height: 100%; */
+    /* width: 100%; */
+    margin: auto;
+    background-color: #fff;
+}
+
+button{
+   height: 2.5rem;
+   width: 10rem;
+    margin: auto;
+}
+button:hover{
+    box-shadow: 0 0 15px 5px rgb(227, 219, 219);
+    cursor: pointer;
+}
+#btn1{
+    display: block;
+}
+#btn2{
+    display: block;
 }
