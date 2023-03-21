@@ -5,5 +5,12 @@ var shape =["square","rectangle","circle","oval","triangle-up","triangle-down","
 var color=["red","orange","pink","maroon","green","violet"];
 
 document.getElementById("shape").onclick = function(){
-    var rand = shape
+    var rand = shape[Math.floor(Math.random()*shape.length)];
+    document.getElementById(cur).setAttribute("id",rand);
+    cur = rand;
+}
+
+document.getElementById("color").onclick = function() {
+    var randColor = color[Math.floor(Math.random()*color.length)];
+    document.getElementById("block").style.backgroundColor = randColor;
 }
