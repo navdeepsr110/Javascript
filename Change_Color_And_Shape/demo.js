@@ -10,6 +10,7 @@ document.getElementById("shape").onclick = function(){
     cur = rand;
 }
 
+
 document.getElementById("color").onclick = function() {
     var randColor = color[Math.floor(Math.random()*color.length)];
     document.getElementById("block").style.backgroundColor = randColor;
