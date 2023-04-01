@@ -1,6 +1,6 @@
 #toggle{
     background-color: white;
-    width: 140px;
+    width: 100px;
     height: 40px;
     border-radius: 20px;
     border: 2px solid black;
@@ -16,15 +16,13 @@
     transition-duration: 0.5s;
     margin-left: 1px;
 }
-
+ 
 h1{
-    
     text-align: center;
-    
 }
 
 .color-white {
-    color: white;
+    color: whitesmoke;
 }
 
 .bck-color-black {
