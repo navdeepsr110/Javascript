@@ -6,12 +6,15 @@
     <body>
         <p id="para"></p>
         <script>
-            let a=document.codewithharry.com
-            for(let i=0;i<a.length;i++){
-                if(a[i]=="javascript"){
-                    document.getElementById("para").innerHTML=a[i]
-                }
-            }
+            let string = 'javascript';
+           let links = document.links;
+           let strlink;
+           Array.from(links).forEach(function(element){
+            strlink = element.href;
+            console.log(strlink);
+           })
         </script>
     </body>
 </html>
+
+let a=<document class="codewtihharry com"></document>
