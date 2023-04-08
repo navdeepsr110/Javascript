@@ -17,5 +17,6 @@ for(var i=0;i<buttons.length;i++){
      }else{
         display.innerText += value;
      }
+     
     });
 }
