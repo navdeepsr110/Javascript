@@ -13,10 +13,12 @@ for(var i=0;i<buttons.length;i++){
        operand1 = display.innerText;
      }
      else if(value== '='){
-
+        
      }else{
         display.innerText += value;
      }
      
     });
 }
+
+// calculator logic javascript? 
