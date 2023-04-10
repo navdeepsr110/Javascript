@@ -43,6 +43,12 @@ html{
     font-family: 'Kalam', cursive;
 
 }
+
+#display-container:hover{
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
 .button{
     display: inline-block;
     width: 23.5%;
@@ -53,6 +59,10 @@ html{
     padding-top: 3%;
     font-family: 'Kalam', cursive;
     background-color: whitesmoke;
+    }
+    .button:hover{
+        cursor: pointer;
+        background-color: aquamarine;
     }
 .zero{
     display: inline-block;
@@ -65,12 +75,17 @@ html{
     background-color: whitesmoke;
     font-family: 'Kalam', cursive;
 }
-
+.zero:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
 #color{
     background-color: brown;
     color: whitesmoke;
 }
-
+#color:hover{
+   background-color: darkred;
+}
 #container{
     display: flex;
     flex-direction: column;
