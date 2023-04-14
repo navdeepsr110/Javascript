@@ -1,3 +1,9 @@
+var box = document.getElementById('box');
+var clickCount=document.getElementById('click-count');
+
+
+
+
 var sec=0;
 function time(){
     console.log(sec);
