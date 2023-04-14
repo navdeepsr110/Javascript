@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(218, 239, 233);
+}
+
+#box{
+    display: inline-block;
+    border: 2px solid black;
+    font-size: 50px;
+    font-family: 'kalam',  cursive;
+    text-align: center;
+}
+button{
+    border-radius: 20px;
+    cursor: pointer;
+}
