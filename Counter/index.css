@@ -1,4 +1,4 @@
-*{
+/* *{
     background-color: rgb(218, 239, 233);
 }
 
@@ -12,4 +12,34 @@
 button{
     border-radius: 20px;
     cursor: pointer;
+} */
+
+body{
+    background-color: #d8f8ff;
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+div{
+    overflow: hidden;
+    margin: 100px;
+    position: relative;
+}
+
+p{
+    text-align: center;
+    line-height: 80px;
+    height: 100%;
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+    border-top: 2px solid black;
+}
+p.next{
+    position: absolute;
+    top: 100px;
+}
+p.animate{
+    transition: all 0.5s;
+    top: 0px;
 }
