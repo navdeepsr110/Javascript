@@ -1,5 +1,5 @@
-/* *{
-    background-color: #d8f8ff;
+*{
+    background-color: #8dc9f1;
 }
 
 #box{
@@ -12,9 +12,9 @@
 button{
     border-radius: 20px;
     cursor: pointer;
-} */
+}
 
-body{
+/* body{
     background-color: #d8f8ff;
     font-family: sans-serif;
     margin: 50px;
@@ -42,4 +42,4 @@ p.next{
 p.animate{
     transition: all 0.5s;
     top: 0px;
-}
+} */
