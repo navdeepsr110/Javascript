@@ -117,3 +117,4 @@ function starpyramid(){
 // let links=document.links;
 // console.log(links);
 
+//javascript program to input two number?   
