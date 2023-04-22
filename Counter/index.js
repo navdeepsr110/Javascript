@@ -10,7 +10,7 @@ function time(){
         clearInterval(id);
     }
 }
-
+ 
 var id = setInterval(time, 1000);
 
 
