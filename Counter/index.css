@@ -1,5 +1,5 @@
 body{
-    background-color: #d8f8ff;
+    background-color: #a885ea;
     font-family: sans-serif;
     margin: 50px;
 }
@@ -7,7 +7,7 @@ body{
 #counter-value{
     padding: 40px 0;
     margin: 50px 0;
-    background-image: linear-gradient(45deg, #a4f2f2, #efa7d7);
+    background-image: linear-gradient(45deg, #047f7f, #600794);
     text-align: center;
 }
 
